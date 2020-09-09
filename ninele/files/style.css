@@ -114,7 +114,6 @@
     font-weight: 700;
     text-align: center;
     padding-top: 22px;
-    margin: 0 auto;
 }
 
 .stock span {
@@ -210,12 +209,12 @@
     left: 0;
 }
 
-.block2 .container>.content {
+.block2 .container > .content {
     padding: 50px 0 0;
     overflow: hidden;
 }
 
-.block2 .container>.content:before {
+.block2 .container > .content:before {
     display: block;
     content: "";
     margin: 0 0 11px;
@@ -499,14 +498,14 @@
     margin: 30px auto;
 }
 
-.rev>p {
+.rev > p {
     padding: 20px;
     font-size: 15px;
     line-height: 22px;
     text-align: center;
 }
 
-.rev>p:after {
+.rev > p:after {
     content: "";
     display: block;
     background: url(img/reviews__quote_icon.png) no-repeat center top;
@@ -572,7 +571,8 @@
 /*block6*/
 /* after_qbici */
 .block6 {
-    background: #e5a488 url(https://women-designer-dresses-summer-autumn2020.bestseller-2020.ru/img/bg1.jpg) no-repeat center top;
+    background: #e5a488 url(https://women-designer-dresses-summer-autumn2020.bestseller-2020.ru/img/bg1.jpg) no-repeat
+        center top;
     height: 473px;
     color: #fff;
     padding: 40px 0 0;
@@ -751,13 +751,9 @@
     color: #333;
 }
 
-
 /*-------------------------------------- Media Queries ----976---------------------------------*/
 /* after_qbici */
 @media screen and (max-width: 976px) {
-
-
-
     .block1 p.subtitle {
         font-size: 23px;
     }
@@ -852,12 +848,12 @@
         margin: 0 auto 35px;
     }
 
-    .block2 .container>.content {
+    .block2 .container > .content {
         padding: 0;
         text-align: center;
     }
 
-    .block2 .container>.content:before {
+    .block2 .container > .content:before {
         margin: 0 auto 11px;
     }
 
@@ -867,7 +863,6 @@
 
     .characteristics_section .images_block img {
         margin: 0 10px 10px 0;
-
     }
 
     .characteristics_section ul {
@@ -887,7 +882,6 @@
     .preim {
         background: #fff;
     }
-
 
     .charimg {
         display: none;
@@ -962,10 +956,7 @@
 /*-------------------------------------- Media Queries ----639---------------------------------*/
 /* michael-k90 */
 @media screen and (max-width: 659px) {
-
-
     .block1 {
-
         padding: 15px 0;
     }
 
@@ -1041,6 +1032,10 @@
         display: block;
     }
 
+    .stock {
+        margin: 0 auto;
+    }
+
     .main_img {
         top: 378px;
         right: 0;
@@ -1093,7 +1088,8 @@
 
     .block4 {
         padding: 40px 0;
-        background: url(https://women-designer-dresses-summer-autumn2020.bestseller-2020.ru/img/b3s.jpg) no-repeat center top;
+        background: url(https://women-designer-dresses-summer-autumn2020.bestseller-2020.ru/img/b3s.jpg) no-repeat
+            center top;
     }
 
     .block4 h2 {
@@ -1182,7 +1178,6 @@
     .characteristics_section .images_block img {
         float: none;
         margin: 0 auto 20px !important;
-
     }
 
     .characteristics_section .images_block img:nth-child(5),
